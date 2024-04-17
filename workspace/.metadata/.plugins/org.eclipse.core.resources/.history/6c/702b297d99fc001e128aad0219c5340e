@@ -1,0 +1,9 @@
+package chap07.sec6.exam2;
+
+public class Child extends Parent{
+	
+	public void method2() {
+		System.out.println("Child-method2()");
+	}
+
+}
