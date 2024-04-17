@@ -1,0 +1,14 @@
+package chap07.sec3.exam2;
+
+public class SupersonicAirplane extends Airplane{
+	
+	public static final int Normal = 1;
+	public static final int SuperSonic = 2;
+	
+	public int flymode = Normal;
+	
+	public void fly() {
+		
+	}
+
+}

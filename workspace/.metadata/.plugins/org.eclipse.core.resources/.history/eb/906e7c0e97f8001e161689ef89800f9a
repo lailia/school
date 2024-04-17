@@ -1,0 +1,19 @@
+package chap05.sec7;
+
+public class ArrayExam1 {
+
+	public static void main(String[] args) {
+		String[] season = {"spring", "summer", "fall", "winter"};
+		
+		System.out.println("season[0] : " + season[0]);
+		System.out.println("season[1] : " + season[1]);
+		System.out.println("season[2] : " + season[2]);
+		System.out.println("season[3] : " + season[3]);
+		
+		for(int i = 0; i < season.length; i++) {
+			System.out.println("season[" + i + "] : " + season[i]);
+		}
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package chap07.sec3.exam1;
+
+public class ComputerExam1 {
+
+	public static void main(String[] args) {
+		Computer com = new Computer();
+		Calculator cal = new Calculator();
+		
+		int r = 10;
+
+	}
+
+}

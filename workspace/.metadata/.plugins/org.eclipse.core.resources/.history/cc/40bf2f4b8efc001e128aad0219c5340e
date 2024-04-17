@@ -1,0 +1,6 @@
+package chap07.sec4.exam1;
+
+public class VeryImportantPerson extends Member{
+	
+
+}

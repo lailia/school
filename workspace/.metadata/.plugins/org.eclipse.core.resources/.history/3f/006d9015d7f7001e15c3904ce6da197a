@@ -1,0 +1,16 @@
+package chap04.sec6;
+
+public class BreakExam1 {
+
+	public static void main(String[] args) {
+		
+		while(true) {
+			int num = (int)(Math.random()*10) + 1;
+			if(num == 5) {
+				break;
+			}
+		}
+
+	}
+
+}

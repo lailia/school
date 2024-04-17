@@ -1,0 +1,14 @@
+package chap06.sec5.exam2;
+
+public class ComputerExam1 {
+
+	public static void main(String[] args) {
+		//Computer객체 생성
+		Computer com1 = new Computer();
+		
+		//sum 메소드 호출
+		int result = com1.sum(1, 2, 3);
+
+	}
+
+}

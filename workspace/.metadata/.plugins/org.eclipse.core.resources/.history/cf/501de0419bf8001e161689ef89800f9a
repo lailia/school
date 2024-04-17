@@ -1,0 +1,29 @@
+package chap05.sec7;
+
+public class ArrayExam2 {
+
+	public static void main(String[] args) {
+		int[] scores;
+		int sum1 = 0;
+		scores = new int[] {83, 90, 87};
+		
+		for(int i = 0; i < 3; i++) {
+			sum1 += scores[i];
+		}
+		
+		System.out.println("sum : " + sum1);
+		
+		printItem(new int[] {83, 90, 87});
+
+	}
+	
+	public static void printItem(int[] scores) {
+		int sum1 = 0;
+		for(int i = 0; i < scores.length; i++) {
+			sum1 += scores[i];
+		}
+
+		System.out.println("sum : " + sum1);
+	}
+
+}

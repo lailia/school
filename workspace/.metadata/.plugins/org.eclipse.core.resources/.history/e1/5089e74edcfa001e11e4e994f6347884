@@ -1,0 +1,17 @@
+package chap05.sec11;
+
+public class MainStringArrayExam2 {
+
+	public static void main(String[] args) {
+		if(args.length != 3) {
+			System.out.println("입력값이 부족");
+			System.exit(0);
+		}
+		
+		for(String arg : args) {
+			System.out.println("arg : " + arg);
+		}
+
+	}
+
+}

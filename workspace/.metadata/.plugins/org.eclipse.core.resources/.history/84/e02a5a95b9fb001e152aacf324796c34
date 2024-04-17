@@ -1,0 +1,18 @@
+package chap06.sec6;
+
+public class Car {
+	//필드 선언
+	String model;
+	int speed;
+	
+	//생성자
+	Car(String model){
+		this.model = model;	//매개 변수를 필드에 대입(this 생략 불가)
+	}
+	
+	//메소드 선언
+	void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	
+}

@@ -1,0 +1,8 @@
+package chap06.sec10.exam3.package2;
+
+import chap06.sec10.exam3.package1.A;
+
+public class C {
+	A a = new A();
+	
+}

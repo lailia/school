@@ -1,0 +1,11 @@
+package chap07.sec2.exam2;
+
+public class SmartPhoneExam1 {
+
+	public static void main(String[] args) {
+		//SmartPhne 객체 생성
+		SmartPhone phone = new SmartPhone("갤럭시", "금색");
+
+	}
+
+}

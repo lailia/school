@@ -1,0 +1,12 @@
+package chap06.sec7.exam1;
+
+public class Calexam1 {
+
+	public static void main(String[] args) {
+		double result = 10 * 10 * Calculator.pi;
+		
+		System.out.println("result : " + result);
+
+	}
+
+}

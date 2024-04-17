@@ -1,0 +1,15 @@
+package chap06.sec6;
+
+public class Car {
+	//필드 선언
+	String model;
+	int spped;
+	
+	//생성자
+	Car(String model){
+		this.model = model;
+	}
+	
+	//메소드 선언
+	
+}
