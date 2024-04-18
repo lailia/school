@@ -1,0 +1,22 @@
+package chap07.sec8;
+
+public class InstanceofExam1 {
+	
+	public static void personInfo(Person person) {
+		System.out.println("이름 : " + person.name);
+		person.walk();
+
+		if(person instanceof Student student) {
+			System.out.println("번호 : " + student.studentNo);
+			student.study();
+		}
+		//instanceof
+		//person이 참조하는 개체가 Student타입인지 확인함
+	}
+	
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

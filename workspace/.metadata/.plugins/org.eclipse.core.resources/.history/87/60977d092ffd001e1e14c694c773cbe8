@@ -1,0 +1,13 @@
+package chap07.sec8;
+
+public class InstanceofExam1 {
+	
+	public static void personInfo(Person person) {
+		System.out.println("이름 : " + person.name);
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
