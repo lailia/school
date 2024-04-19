@@ -1,0 +1,19 @@
+package chap08.sec11.exam2;
+
+public class DriverExam1 {
+
+	public static void main(String[] args) {
+		//Driver 객체 생성
+		Driver driver = new Driver();
+		
+		//Vehicle 객체 생성
+		Bus bus = new Bus();
+		
+		Taxi taxi = new Taxi();
+		
+		driver.drive(bus);
+		driver.drive(taxi);
+
+	}
+
+}

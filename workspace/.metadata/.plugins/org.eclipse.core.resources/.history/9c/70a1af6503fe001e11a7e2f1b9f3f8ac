@@ -1,0 +1,15 @@
+package chap08.sec9;
+
+public interface InterfaceCImpl extends InterfaceA, InterfaceB, InterfaceC{
+	
+	default void methodA() {
+		System.out.println("InterfaceCImpl-methodA() 실행중");
+	}
+
+	default void methodB() {
+		System.out.println("InterfaceCImpl-methodB() 실행중");
+	}
+	default void methodC() {
+		System.out.println("InterfaceCImpl-methodC() 실행중");
+	}
+}
