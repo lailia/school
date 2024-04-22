@@ -1,0 +1,9 @@
+package chap09.sec04.exam2;
+
+public class Aexam1 {
+	
+	public static void main(String[] args) {
+		A a = new A();
+	}
+
+}

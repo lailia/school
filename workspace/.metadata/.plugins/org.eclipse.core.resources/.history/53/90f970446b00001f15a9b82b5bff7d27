@@ -1,0 +1,28 @@
+package chap09.sec05.exam2;
+
+public class A {
+	//A인스턴스 필드 선언
+	String field = "A-field";
+	//A인스턴스 메소드 선언
+	void method() {
+		System.out.println("A-field");
+	}
+	
+	//인스턴스 멤버 클래스
+	class B{
+		//B인스턴스 필드
+		String field = "B-field";
+		//B인스턴스 메소드
+		void method() {
+			System.out.println("B-field");
+		}
+		
+		//B인스턴스 메소드
+		void print() {
+			//B객체의 필드와 메소드 사용
+			System.out.println(field);
+			method();
+		}
+	}
+
+}

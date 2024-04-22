@@ -1,0 +1,15 @@
+package chap09.sec07.exam1;
+
+public class CarExam1 {
+
+	public static void main(String[] args) {
+		//Car 객체 생성
+		Car car = new Car();
+		
+		car.run1();
+		car.run2();
+		car.run3(new Tire());
+
+	}
+
+}

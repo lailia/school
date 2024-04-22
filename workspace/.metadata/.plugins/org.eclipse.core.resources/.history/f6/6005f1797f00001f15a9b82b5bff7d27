@@ -1,0 +1,30 @@
+package chap09.sec07.exam2;
+
+public class Home {
+	//필드에 익명 구현 객체(인터페이스 구현한 객체) 대입
+	private RemoteControl rc = new RemoteControl() {
+		@Override
+		public void turnOn() {
+			System.out.println("TV를 켭니다");
+		}
+		
+		@Override
+		public void turnOff() {
+			System.out.println("TV를 끕니다");
+		}
+	};
+	
+	//인터페이스의 익명 구현 객체를 생성해서 필드, 로컬변수, 매개변수값으로 사용함
+	
+	//메소드(필드 이용)
+	public void use1() {
+		rc.turnOn();
+		rc.turnOff();
+	}
+	
+	//메소드(로컬 변수 이용)
+	public void use2() {
+		
+	}
+
+}

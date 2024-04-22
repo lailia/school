@@ -1,0 +1,19 @@
+package chap09.sec04.exam3;
+
+public class A {
+	
+	public void method1(int arg) {
+		int var = 1;	//로컬 변수 선언
+		
+		class B{
+			void method2() {
+				System.out.println(arg);	//읽기 가능
+				System.out.println(var);	//읽기 가능
+				
+				//arg = 20;	//수정 불가
+				//var = 30;	//수정 불가
+			}
+		}
+	}
+
+}

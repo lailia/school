@@ -1,0 +1,9 @@
+package chap09.sec04.exam3;
+
+public class A {
+	
+	public void method1(int arg) {
+		int var = 1;	//로컬 변수 선언
+	}
+
+}
