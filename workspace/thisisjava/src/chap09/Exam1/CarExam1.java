@@ -1,4 +1,4 @@
-package chap09.Exam1;
+package chap09.exam1;
 
 public class CarExam1 {
 

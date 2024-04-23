@@ -19,4 +19,11 @@
     <fullyQualifiedTypeName name="chap06.sec10.exam3.package1.A"/>
     <fullyQualifiedTypeName name="chap07.sec10.Person"/>
     <fullyQualifiedTypeName name="chap07.sec10.Director"/>
+    <fullyQualifiedTypeName name="chap09.sec02.exam1.A.B"/>
+    <fullyQualifiedTypeName name="chap09.sec03.exam1.A.B"/>
+    <fullyQualifiedTypeName name="chap09.sec03.exam2.A.B"/>
+    <fullyQualifiedTypeName name="chap09.sec06.exam3.Button.ClickListener"/>
+    <fullyQualifiedTypeName name="chap09.sec07.exam3.Button.ClickListener"/>
+    <fullyQualifiedTypeName name="chap09.Exam1.Car.Tire"/>
+    <fullyQualifiedTypeName name="chap09.Exam1.Car.Engine"/>
 </qualifiedTypeNameHistroy>

@@ -1,4 +1,4 @@
-package chap09.Exam3;
+package chap09.exam3;
 
 public class Anonymous {
 	Vehicle field = new Vehicle() {
