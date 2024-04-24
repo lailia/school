@@ -1,0 +1,11 @@
+package chap12.sec4;
+
+public class RunTimeExam1 {
+
+	public static void main(String[] args) {
+		long time1 = System.nanoTime();
+		long time2 = System.currentTimeMillis();
+
+	}
+
+}

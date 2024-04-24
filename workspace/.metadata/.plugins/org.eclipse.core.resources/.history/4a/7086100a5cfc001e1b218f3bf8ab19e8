@@ -1,8 +1,0 @@
-package chap06.sec10.exam1.package2;
-
-import chap06.sec10.exam1.package1.B;
-
-public class C {
-	A a;
-
-}

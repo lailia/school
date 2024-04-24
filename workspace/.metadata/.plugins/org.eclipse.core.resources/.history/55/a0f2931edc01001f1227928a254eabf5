@@ -1,0 +1,12 @@
+package chap12.sec3.exam5;
+
+import lombok.Data;
+
+//@Data
+//컴파일 과정에서 기본 생성자와 함께 Getter, Setter, hashCode(),
+//equals(), toString() 메소드가 자동 생성됨
+@Data
+public class Member {
+	
+
+}

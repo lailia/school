@@ -1,0 +1,5 @@
+package chap12.sec6.exam1;
+
+public class WrongPasswordException {
+
+}

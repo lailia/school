@@ -26,4 +26,5 @@
     <fullyQualifiedTypeName name="chap09.sec07.exam3.Button.ClickListener"/>
     <fullyQualifiedTypeName name="chap09.Exam1.Car.Tire"/>
     <fullyQualifiedTypeName name="chap09.Exam1.Car.Engine"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
 </qualifiedTypeNameHistroy>

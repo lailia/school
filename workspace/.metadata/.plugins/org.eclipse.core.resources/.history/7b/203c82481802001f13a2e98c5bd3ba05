@@ -1,0 +1,12 @@
+package chap12.sec6;
+
+public class ValueCompareExam1 {
+
+	public static void main(String[] args) {
+		Integer obj1 = 300;
+		Integer obj2 = 300;
+		System.out.println(obj1 == obj2);
+
+	}
+
+}
