@@ -1,9 +1,0 @@
-package chap07.sec4.exam2;
-
-public class SportsCar extends Car{
-	
-	public void speedUp() {
-		speed += 10;
-	}
-
-}

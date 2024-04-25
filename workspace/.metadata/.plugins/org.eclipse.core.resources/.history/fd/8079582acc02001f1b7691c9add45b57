@@ -1,0 +1,15 @@
+package chap12.sec11;
+
+public class GetClassExam1 {
+
+	public static void main(String[] args) throws Exception{
+		//방법 1
+		Class class1 = Car.class;
+		
+		System.out.println("패키지 : " + class1.getPackage().getName());
+		//getPackage() : 패키지 정보를 읽기
+		//getName() : 피키지를 포함한 전체 타입의 이름
+
+	}
+
+}

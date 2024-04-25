@@ -1,8 +1,0 @@
-package chap06.sec11;
-
-public class Car {
-	
-	private int speed;
-	private boolean stop;
-
-}

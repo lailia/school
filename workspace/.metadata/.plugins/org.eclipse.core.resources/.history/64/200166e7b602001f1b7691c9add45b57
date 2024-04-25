@@ -1,0 +1,15 @@
+package chap12.sec8;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class DateTimeCompareExam1 {
+
+	public static void main(String[] args) {
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy.MM.dd a HH:mm:ss");
+		
+		LocalDateTime startDateTime = LocalDateTime.of(2023, 11, 28, 12, 30, 0);
+
+	}
+
+}

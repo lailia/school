@@ -1,0 +1,14 @@
+package chap12.sec8;
+
+import java.util.TimeZone;
+
+public class LosAnglesExam1 {
+
+	public static void main(String[] args) {
+		//Calendar 크래스의 오버로딩된 다른 getInstance()메소드를 이용
+		TimeZone timezon = TimeZone.getTimeZone("America/Los_Angeles");
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package chap12.sec8;
+
+import java.util.Calendar;
+
+public class CalendarExam1 {
+
+	public static void main(String[] args) {	
+		//getInstance() : 컴퓨터에 설정된 시간대 기준으로 Calendar 하위 객체를 얻음
+		Calendar now = Calendar.getInstance();
+		//get()메소드의 매개값으로 Calendar에 정의된 상수를 주면
+		//상수가 의미하는 값을 리턴함
+		int year = now.get(Calendar.YEAR);	//년도를 리턴
+		int month = now.get(Calendar.MONTH) + 1;	//월을 리턴
+		int day = now.get(Calendar.DAY_OF_MONTH);	//일을 리턴
+
+	}
+
+}

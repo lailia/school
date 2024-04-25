@@ -27,4 +27,9 @@
     <fullyQualifiedTypeName name="chap09.Exam1.Car.Tire"/>
     <fullyQualifiedTypeName name="chap09.Exam1.Car.Engine"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.lang.SafeVarargs"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>

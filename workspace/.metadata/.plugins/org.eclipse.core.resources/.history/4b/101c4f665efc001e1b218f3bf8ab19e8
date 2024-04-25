@@ -1,8 +1,0 @@
-package chap06.sec10.exam2.package2;	//A, B 크래스와 다른 패키지
-
-import chap06.sec10.exam2.package1.A;
-
-public class C {
-	A a1 = new A(true);
-
-}

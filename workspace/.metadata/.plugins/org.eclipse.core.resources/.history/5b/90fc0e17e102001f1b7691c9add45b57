@@ -1,0 +1,17 @@
+package chap12.sec12;
+
+import java.lang.reflect.Method;
+
+public class PrintAnnotationExam1 {
+	//Service 클래스에 선언된 메소드를 리플렉션해서
+	//@PrintAnnotation 
+
+	public static void main(String[] args) throws Exception{
+		Method[] declaredMethods = Service.class.getDeclaredMethods();	//메소드 정보 읽기
+		for(Method method : declaredMethods) {
+			
+		}
+
+	}
+
+}
