@@ -1,0 +1,10 @@
+package chap13.sec5.exam3;
+
+public class Util<K> {
+	
+	public static void getValue(Pair<?,?> pair, ) {
+		
+		
+	}
+
+}

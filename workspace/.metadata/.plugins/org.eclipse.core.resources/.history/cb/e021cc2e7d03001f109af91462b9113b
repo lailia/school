@@ -1,0 +1,10 @@
+package chap13.sec2.exam1;
+
+public class GenericXeam1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

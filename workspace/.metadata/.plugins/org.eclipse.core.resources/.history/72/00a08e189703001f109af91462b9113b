@@ -1,0 +1,17 @@
+package chap13.sec4;
+
+public class GenericExam1 {
+	//제한된 타입 파라미터를 갖는 제네릭 메소드
+	public static <T extends Number> boolean compare(T t1, T t2) {
+		//타입 파라미터 T를 대체할 타입을 Number로 제한
+		System.out.println("compare(" + t1.getClass().getSimpleName() +", " + t2.getClass().getSimpleName() + ")");
+		
+	
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

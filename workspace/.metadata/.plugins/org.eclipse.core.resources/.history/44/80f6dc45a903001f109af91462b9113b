@@ -1,0 +1,14 @@
+package chap13.sec5.exam3;
+
+public static class Util {
+	
+	public static <K, V> V  getValue(Pair<?,? extends Pair> pair, K k) {
+		if(pair.getKey() == k) {
+			return pair.getValue();
+		}
+		else {
+			return null;
+		}
+	}
+
+}

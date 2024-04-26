@@ -1,5 +1,0 @@
-package chap08.sec3;
-
-public interface RemoteControl {
-
-}

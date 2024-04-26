@@ -1,0 +1,16 @@
+package chap13.sec3.exam1;
+
+public class GenericExam1 {
+	//제네릭 메소드
+	public static <T> Box<T> boxing(T t){	//타입 파라미터
+		Box<T> box = new Box<T>();
+		box.set(t);
+		return box;
+	}
+	
+	public static void main(String[] args) {
+
+		
+	}
+
+}

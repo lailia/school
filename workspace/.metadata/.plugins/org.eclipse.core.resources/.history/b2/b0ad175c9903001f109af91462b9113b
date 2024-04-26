@@ -1,0 +1,13 @@
+package chap13.sec5;
+
+public class Person {
+
+}
+
+Class Worker extends Person{
+	
+}
+
+Class Student extends Person{
+	
+}

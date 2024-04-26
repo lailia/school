@@ -30,7 +30,7 @@ public class PrintAnnotationExam1 {
 	
 	public static void printLine(PrintAnnotation p) {
 		if(p != null) {
-			//number 소성값 얻기
+			//number 속성값 얻기
 			int number = p.number();
 			for(int i=0; i<number; i++) {
 				//value 속성값 얻기
