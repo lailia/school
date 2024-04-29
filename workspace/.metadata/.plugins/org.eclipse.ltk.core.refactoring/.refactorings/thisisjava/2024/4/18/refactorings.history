@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;chap14.sec05.exam2.SumTread&apos; to &apos;SumThread&apos;&#x0D;&#x0A;- Original project: &apos;thisisjava&apos;&#x0D;&#x0A;- Original element: &apos;chap14.sec05.exam2.SumTread&apos;&#x0D;&#x0A;- Renamed element: &apos;chap14.sec05.exam2.SumThread&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SumTread&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;chap14.sec05.exam2{SumTread.java[SumTread" matchStrategy="1" name="SumThread" qualified="false" references="true" similarDeclarations="false" stamp="1714374540578" textual="false" version="1.0"/>
+</session>

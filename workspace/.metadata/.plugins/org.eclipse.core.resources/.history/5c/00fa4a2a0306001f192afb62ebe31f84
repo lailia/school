@@ -1,0 +1,10 @@
+package chap14.sec06.exam1;
+
+public class SynchronizedExam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

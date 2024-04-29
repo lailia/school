@@ -1,8 +1,0 @@
-package chap08.sec11.exam1;
-
-public class Car {
-	//인터페이스 필드 선언 및 객체 대입
-	Tire tire1 = new HankookTire();
-	Tire tire2 = new HankookTire();
-
-}
