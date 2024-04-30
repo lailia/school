@@ -1,0 +1,10 @@
+package chap14.sec09.exam3C;
+
+public class CallableExam1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
