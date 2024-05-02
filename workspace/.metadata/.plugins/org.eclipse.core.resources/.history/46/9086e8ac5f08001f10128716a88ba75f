@@ -1,0 +1,10 @@
+package chap15.sec03.exam2;
+
+public class HashSetExam1 {
+
+	public static void main(String[] args) {
+		//Hash
+
+	}
+
+}

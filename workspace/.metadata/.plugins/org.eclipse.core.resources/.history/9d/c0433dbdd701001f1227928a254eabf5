@@ -1,9 +1,0 @@
-package chap12.sec3.exam4;
-
-public record Member(String id, String name, int age) {
-	//class 대신 record로 대체하고 레코드 이름 뒤에
-	//괄호를 작성해서 저장할 데이터의 종류를 변수로 선언함
-	
-	
-
-}

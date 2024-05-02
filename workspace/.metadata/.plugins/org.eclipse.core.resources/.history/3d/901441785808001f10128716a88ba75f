@@ -1,0 +1,10 @@
+package chap15.sec02.exam3;
+
+public class LinkedListExam1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,5 +1,0 @@
-package chap12.sec3.exam4;
-
-public record Member() {
-
-}

@@ -1,9 +1,0 @@
-package chap12.sec6.exam1;
-
-public class WrongPasswordException throws Exception{
-	public WrongPasswordException() {}
-	public WrongPasswordException(String message) {
-		super(message);
-	}
-	
-}

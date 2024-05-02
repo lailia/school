@@ -1,0 +1,11 @@
+package chap15.sec03.exam2;
+
+public class HashSetExam1 {
+
+	public static void main(String[] args) {
+		//HashSet 컬렉션 생성
+		Set<Member> set = new HashSet<>();
+
+	}
+
+}
