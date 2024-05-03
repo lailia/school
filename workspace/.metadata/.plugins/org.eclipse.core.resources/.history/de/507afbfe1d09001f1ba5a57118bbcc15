@@ -1,0 +1,10 @@
+package chap15.sec04.exam1;
+
+public class HashMapExam1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
