@@ -1,0 +1,10 @@
+package chap15.sec05.exam4;
+
+public class ComparableExam1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,8 +1,0 @@
-package chap13.sec5;
-
-public class Course {
-	public static void refisterCourse1(Applicant<?> applicant) {
-		System.out.println(applicant.kind.getClass().getSimpleName());
-	}
-
-}

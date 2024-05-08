@@ -1,0 +1,10 @@
+package chap15.sec09.exam8;
+
+public class HashSetExam1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

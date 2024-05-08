@@ -1,5 +1,0 @@
-package chap14.sec08;
-
-public class AutoSaveThread extends Thread{
-
-}

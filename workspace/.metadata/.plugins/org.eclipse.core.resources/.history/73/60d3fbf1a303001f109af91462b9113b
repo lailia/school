@@ -1,7 +1,0 @@
-package chap13.sec5.exam3;
-
-public class Pair<K, V> {
-	private K key;
-	private V value;
-
-}
