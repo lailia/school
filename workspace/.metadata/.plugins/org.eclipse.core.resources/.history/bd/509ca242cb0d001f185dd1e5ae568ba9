@@ -1,0 +1,8 @@
+package chap16.sec01;
+
+@FunctionalInterface
+public interface Calculable {
+	
+	void calsculate(int x ,int y);
+
+}

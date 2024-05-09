@@ -1,0 +1,8 @@
+package chap16.sec01;
+
+@functionalInterfacel	//추상 메소드가 하나인지 검사
+public intergace Calculable {
+	
+	voidCalsculate(int x ,int y);
+
+}

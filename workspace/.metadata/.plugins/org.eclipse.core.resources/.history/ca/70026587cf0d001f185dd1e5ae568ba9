@@ -1,0 +1,13 @@
+package chap16.sec02.exam2;
+
+public class Button {
+	//정적 중첩 인터페이스
+	@FunctionalInterface
+	public static interface ClickListner{	//함수형 인터페이스
+		void onClick();
+	}
+	
+	private ClickListner clickListner;	//필드 선언
+	
+
+}

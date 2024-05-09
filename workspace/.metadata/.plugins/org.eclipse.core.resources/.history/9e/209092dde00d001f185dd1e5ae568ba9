@@ -1,0 +1,5 @@
+package chap16.sec06;
+
+public interface Creatable2 {
+
+}

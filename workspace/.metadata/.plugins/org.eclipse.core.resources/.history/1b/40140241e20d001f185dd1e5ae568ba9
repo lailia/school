@@ -1,0 +1,8 @@
+package chap16.sec06;
+
+public class Person {
+	public Member getMember1(Creatable1 creatable1) {
+		String id = "winter";
+		Member member = creatable1.create(id);
+	}
+}

@@ -1,0 +1,10 @@
+package chap16.sec05.exam2;
+
+public class Persom {
+	public void ordering(Comparable comparable) {
+		//Comparable을 매개변수로 갖는 ordering() 메소드 작성
+		
+		String a = "홍길동";
+	}
+
+}
