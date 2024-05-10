@@ -1,0 +1,11 @@
+package chap16.sec07.exam5;
+
+public class Example {
+
+	public static void main(String[] args) {
+		Button btn = new Button();
+		btn.setClickListener(() -> System.out.println("OK 버튼을 클릭했습니다"));
+
+	}
+
+}
