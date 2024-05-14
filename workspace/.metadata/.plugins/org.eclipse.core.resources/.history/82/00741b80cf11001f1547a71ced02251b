@@ -1,0 +1,15 @@
+package chap17.sec12.exam1.Student;
+
+import java.util.ArrayList;
+import java.util.List;
+import chap17.sec12.exam1.Student;
+
+public class CollectExam1 {
+
+	public static void main(String[] args) {
+		List<Student> totalList = new ArrayList<List>();
+		totalList.add
+
+	}
+
+}

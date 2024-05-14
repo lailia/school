@@ -1,0 +1,21 @@
+package chap17.sec11;
+
+import java.util.*;
+
+public class OptionalExam1 {
+
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<>();
+		
+		OptionalDouble option = list.stream()
+								.mapToInt(Integer::intValue)
+								.average();
+		if(option.isPresent()){//isPresent() : 집계값이 있는지 여부 판별
+			System.out.println("평균 : " + option.getAsDouble());
+		}else {
+			System.out.println("평균 없음");
+		}
+
+	}
+
+}
