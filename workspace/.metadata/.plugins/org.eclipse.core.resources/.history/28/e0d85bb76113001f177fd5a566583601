@@ -1,0 +1,14 @@
+package chap18.sec04.exam1;
+
+import java.io.*;
+
+public class WriteExam1 {
+
+	public static void main(String[] args) {
+		try {
+			Writer writer = new FileWriter("C:/Temp/test1.txt");
+		}
+
+	}
+
+}

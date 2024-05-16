@@ -1,0 +1,16 @@
+package chap18.sec02.exam2;
+
+import java.io.IOException;
+
+public class WriteExam1 {
+
+	public static void main(String[] args) {
+		try {
+			
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

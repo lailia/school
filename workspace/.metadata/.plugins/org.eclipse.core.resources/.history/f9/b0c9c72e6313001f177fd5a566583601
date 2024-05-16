@@ -1,0 +1,15 @@
+package chap18.sec04.exam2;
+
+import java.io.Reader;
+
+public class ReadExam1 {
+
+	public static void main(String[] args) {
+		try {
+			Reader reader = null;
+			reder = new FileReaderStream();
+		}
+
+	}
+
+}

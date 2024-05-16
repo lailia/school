@@ -1,0 +1,27 @@
+package chap18.sec03.exam1;
+
+import java.io.*;
+
+public class ReadExam1 {
+
+	public static void main(String[] args) {
+		try {
+			InputStream is = new FileInputStream("C:/Temp/test.db");
+			//데이터 출발지를 test1.db로 하는 입력 스트림을 생성
+			
+			while(true) {
+				int data = is.read();	//1byte씩 읽기
+				if(data == -1) break;	//파일 끝에 도다했을 경우
+				System.out.println(data);
+			}
+			
+			is.close();	//입력 스트림을 닫고 사용 메모리를 해제
+		}catch(FileNotFoundException e) {
+			e.printStackTrace();
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

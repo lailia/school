@@ -1,0 +1,21 @@
+package chap18.sec03.exam3;
+
+import java.io.*;
+
+public class CopyExam1 {
+
+	public static void main(String[] args) throws Exception{
+		String originalFileName = "C:/Temp/apple.jpg";
+		String targetFileName = "C:/Temp/apple2.jpg";
+		
+		InputStream is = new FileInputStream(originalFileName);
+		OutputStream os = new FileOutputStream(targetFileName);
+		
+		byte[] data = new byte[1024];	//읽은 바이트를 저장할 배열 생성
+		while(true) {
+			int num = is.read(data);
+		}
+
+	}
+
+}

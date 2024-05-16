@@ -1,0 +1,17 @@
+package chap18.sec04.exam2;
+
+import java.io.FileReader;
+import java.io.Reader;
+
+public class ReadExam1 {
+
+	public static void main(String[] args) {
+		try {
+			Reader reader = null;
+			reader = new FileReader("C:/Temp/Test.txt");
+			//텍스트 파일로부터 문자 입력 스트림 생성
+		}
+
+	}
+
+}

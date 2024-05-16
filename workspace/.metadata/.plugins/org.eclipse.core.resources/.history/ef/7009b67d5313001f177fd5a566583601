@@ -1,0 +1,16 @@
+package chap18.sec02.exam1;
+
+import java.io.*;
+
+public class WriteExam1 {
+
+	public static void main(String[] args) {
+		try {
+			OutputStream os = new FileOutPutStream("C:/Temp/tet1.db");
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

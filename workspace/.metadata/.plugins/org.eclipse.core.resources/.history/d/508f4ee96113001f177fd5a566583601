@@ -1,0 +1,15 @@
+package chap18.sec04.exam1;
+
+import java.io.*;
+
+public class WriteExam1 {
+
+	public static void main(String[] args) {
+		try {
+			Writer writer = new FileWriter("C:/Temp/test1.txt");
+			//문자 기반의 출력 스트림 생성
+		}
+
+	}
+
+}

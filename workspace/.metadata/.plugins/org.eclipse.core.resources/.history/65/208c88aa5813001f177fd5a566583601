@@ -1,0 +1,12 @@
+package chap18.sec03.exam1;
+
+public class ReadExam1 {
+
+	public static void main(String[] args) {
+		try {
+			InputStream is = new FileInputStream("C:/Temp/test.db");
+		}
+
+	}
+
+}

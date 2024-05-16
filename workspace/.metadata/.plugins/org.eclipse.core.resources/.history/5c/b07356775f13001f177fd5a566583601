@@ -1,0 +1,15 @@
+package chap18.sec03.exam3;
+
+import java.io.*;
+
+public class CopyExam1 {
+
+	public static void main(String[] args) {
+		String originalFileName = "C:/Temp/apple.jpg";
+		String targetFileName = "C:/Temp/apple2.jpg";
+		
+		InputStream is = new FileInputStream();
+
+	}
+
+}
