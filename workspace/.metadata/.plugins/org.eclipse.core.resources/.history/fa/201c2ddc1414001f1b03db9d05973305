@@ -1,0 +1,13 @@
+package chap18.sec07.exam1;
+
+public class BufferExam1 {
+
+	public static void main(String[] args) throws Exception{
+		//입출력 스트림 생성
+		String path1 = BufferExam1.class
+				.getResource("apple1.jpg");
+		
+
+	}
+
+}

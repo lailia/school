@@ -1,0 +1,18 @@
+package chap18.sec06;
+
+import java.io.*;
+
+public class CharacterConvertStreamExam1 {
+
+	public static void main(String[] args) throws Exception{
+		write("문자 변화 스트림을 사용합니다");
+		String data = read();
+		System.out.println(data);
+
+	}
+	
+	public static void write(String str) throws Exception{
+		
+	}
+
+}

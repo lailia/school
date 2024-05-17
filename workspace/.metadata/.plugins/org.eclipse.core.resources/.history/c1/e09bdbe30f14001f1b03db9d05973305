@@ -1,0 +1,12 @@
+package chap18.sec06;
+
+import java.io.*;
+
+public class CharacterConvertStreamExam1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

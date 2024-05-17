@@ -1,7 +1,0 @@
-package chap16.sec01;
-
-@FunctionalInterface
-public interface workable {
-	void work();
-
-}

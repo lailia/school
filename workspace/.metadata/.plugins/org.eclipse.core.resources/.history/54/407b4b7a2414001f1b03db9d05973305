@@ -1,0 +1,25 @@
+package chap18.sec10;
+
+import java.io.*;
+
+public class ObjectInputOutputStreamExam1 {
+
+	public static void main(String[] args) throws Exception{
+		//다양한 객체를 파일에 저장하고 다시 읽어 객체로 복원
+		
+		FileOutputStream fos = new FileOutputStream("C:/Temp/object.dat");
+		ObjectOutputStream oos = new ObjectOutputStream(fos);
+		
+		//객체 생성
+		Member m1 = new Member("fall","단풍이");
+		Product p1 = new Product("노트북", 1500000);
+		int[] arr1 = {1,2,3};
+		
+		//객체를 직렬화 해서 파일에 저장 : writeObject() 사용
+		oos.writeObject(m1);
+		oos.writeObject(p1);
+		oos.writeObject(arr1);
+
+	}
+
+}

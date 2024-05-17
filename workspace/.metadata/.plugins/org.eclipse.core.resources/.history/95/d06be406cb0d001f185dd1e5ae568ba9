@@ -1,9 +1,0 @@
-package chap16.sec01;
-
-@FunctionalInterface
-public interface Calculable {
-	
-	@Override
-	void Calsculate(int x ,int y);
-
-}

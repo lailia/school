@@ -1,0 +1,19 @@
+package chap18.sec07.exam1;
+
+import java.io.*;
+
+public class BufferExam1 {
+
+	public static void main(String[] args) throws Exception{
+		//입출력 스트림 생성
+		String path1 = BufferExam1.class
+				.getResource("apple1.jpg").getPath();
+		
+		String targetFile1 = "C:/Temp/targetFile1.jpg";
+		
+		FileInputStream fis = new FileInputStream(path1);
+		FileOutputStream fos = new FileOutputStream();
+
+	}
+
+}

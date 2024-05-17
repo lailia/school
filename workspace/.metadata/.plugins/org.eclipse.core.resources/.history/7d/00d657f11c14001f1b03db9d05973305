@@ -1,0 +1,14 @@
+package chap18.sec08;
+
+import java.io.*;
+
+public class DataInputOutputStreamExam1 {
+
+	public static void main(String[] args) throws Exception{
+		//DataOutputStream 생성
+		FileOutputStream fos = new FileOutputStream("C:/Temp/primitive.db");
+		DataOutputStream dos = new DataOutputStream(fos);
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package chap18.sec10;
+
+import java.io.*;
+
+public class ObjectInputOutputStreamExam1 {
+
+	public static void main(String[] args) throws Exception{
+		//다양한 객체를 파일에 저장하고 다시 읽어 객체로 복원
+		
+		FileOutputStream fos = new FileOutputStream("C:/Temp/object.dat");
+
+	}
+
+}
